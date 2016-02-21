@@ -1,29 +1,12 @@
 # ComicDownloader
 
-TODO: Write a gem description
+## usage:
+```
+$ comic_downloader http://8yyls.com/65314/
+$ comic_downloader http://8yyls.com/65314/ 1..10
+```
 
-## Installation
+##todo:
+ - Add proxy support
+ - gallery generator
 
-Add this line to your application's Gemfile:
-
-    gem 'comic_downloader'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install comic_downloader
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( http://github.com/<my-github-username>/comic_downloader/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
