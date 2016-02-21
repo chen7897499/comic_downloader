@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/comic_downloader'
+options = {}
+options[:url] = ARGV[0] unless ARGV[0].nil?
+options[:range] = ARGV[1] unless ARGV[1].nil?
+options[:proxy_ip] = ARGV[2] unless ARGV[2].nil?
+
+ComicDownloader::Scraper.new(options)
+
+
